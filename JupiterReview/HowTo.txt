@@ -1,0 +1,16 @@
+Export Jupiter Review to HTML
+
+An XSL to translate Jupiter's .review XML file to a basic HTML table.
+
+Steps using Notepad++:
+
+1. Open Jupiter's .review file in Notepad++
+2. Plugins -> XML Tools -> XSL Transformation
+3. Select .xsl and click Transform
+
+
+Steps using Eclipse XSL Tools:
+
+1. Right click on the .xsl in the Project Explorer and Run As -> XSL Transformation
+2. The popup to select an XML file does not allow selecting Jupiter's .review file. But pasting the full path of the .review file works.
+3. Run Configuration can be customized to save the output to a .html instead of .out.xml
