@@ -9,9 +9,8 @@ $^s::
     IfWinActive, %A_ScriptName% 
     { 
        Send, ^s 
-       SplashTextOn,,,Reloading %A_ScriptName%....., 
-       Sleep,200 
-       SplashTextOff 
+       TrayTip , AutoHotkey, Reloading %A_ScriptName%, 4
+       Sleep,4000  
        Reload 
     } 
     else 
